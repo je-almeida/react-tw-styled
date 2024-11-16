@@ -14,14 +14,14 @@
 To install **tw-styled**, you can use npm or yarn:
 
 ```bash
-npm install react-tw-styled
+npm install @jeff-almeida/react-tw-styled
 ```
 
 Usage
 
 ```
 
-const buttonClasses = styled(
+const buttonClasses = twStyle(
   `
     bg-white
     text-red-300
