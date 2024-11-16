@@ -1,0 +1,45 @@
+{
+  "name": "tw-styled",
+  "version": "1.0.0",
+  "description": "Easy Styles With TailwindCSS + NextJS",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/je-almeida/react-tw-styled.git"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "tw",
+    "tailwind",
+    "styled"
+  ],
+  "author": "Jeff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/je-almeida/react-tw-styled/issues"
+  },
+  "homepage": "https://github.com/je-almeida/react-tw-styled#readme",
+  "peerDependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "tailwind-merge": "^2.5.4",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "tailwind-merge": "^2.5.4",
+    "typescript": "^5.6.3"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
