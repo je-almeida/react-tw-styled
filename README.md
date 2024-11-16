@@ -14,7 +14,7 @@
 To install **tw-styled**, you can use npm or yarn:
 
 ```bash
-npm install tw-styled
+npm install react-tw-styled
 ```
 
 Usage

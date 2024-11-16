@@ -1,5 +1,5 @@
 {
-  "name": "tw-styled",
+  "name": "@jeff-almeida/react-tw-styled",
   "version": "1.0.0",
   "description": "Easy Styles With TailwindCSS + NextJS",
   "main": "dist/index.js",
