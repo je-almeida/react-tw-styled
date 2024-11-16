@@ -1,8 +1,9 @@
 {
   "name": "@jeff-almeida/react-tw-styled",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Easy Styles With TailwindCSS + NextJS",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
